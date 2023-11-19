@@ -1,0 +1,52 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  /* background-color: rgb(172, 166, 166); */
+  margin-bottom: 15px;
+}
+
+.onSearch {
+ height: 35px;
+ padding: 0 10px;
+ font-weight: 500;
+ cursor: pointer;
+ background-color: white;
+ border-radius: 1px;
+}
+
+.links {
+  text-decoration: none;
+  height: 100%;
+  padding: 0 10px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  
+}
+
+.button {
+  height: 35px;
+  padding: 0 10px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 1px;
+}
+
+h2 {
+  color: beige;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  color: beige;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.links :hover {
+  background-color: greenyellow;
+}
+
+.onSearch:hover{
+  background-color: brown;
+}

@@ -1,0 +1,25 @@
+div button:hover {
+  cursor: pointer;
+}
+
+div input {
+  background-color: white;
+  font-size: 15px;
+  outline: none;
+  height: 30px;
+ padding: 1 10px;
+ font-weight: 400;
+}
+
+.agregar {  
+ height: 35px;
+ padding: 0 10px;
+ font-weight: 500;
+ cursor: pointer;
+ background-color: white;
+ border-radius: 1px;
+}
+
+.agregar:hover{
+  background-color: brown;
+}

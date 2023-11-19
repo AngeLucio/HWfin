@@ -1,0 +1,54 @@
+
+.tituloH3 h3{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: rgb(228, 228, 139);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 15px;
+    /* margin: 30px 0 0 0; */
+    margin-top: 30px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.userContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.userContainer input{
+    margin-right: 100px;
+    border: none;
+    padding: 0 10px;
+}
+.passwordContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.passwordContainer input{
+    margin-right: 100px;
+    border: none;
+    padding: 0 10px;
+}
+.button{
+    color: black;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
